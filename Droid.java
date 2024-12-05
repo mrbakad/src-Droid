@@ -22,6 +22,11 @@ public class Droid{
         System.out.println(name + " is performing task: " + task);
         batteryLevel = batteryLevel - 10;
         System.out.println("batteryLevel: " + batteryLevel);
+        if (batteryLevel > 20){
+            System.out.println("Battery level is good");
+        }
+        else {
+            System.out.println("low battery");}
     }
     public void secTask(String secondTask){
         System.out.println(name + "is performing another task: " + secondTask);
