@@ -13,7 +13,6 @@ public class Droid{
         Droid Max = new Droid("Max");
         System.out.println(Max);
         Max.performTask("walking");
-
     }
     public String toString(){
         return "hello, i am droid: " + name;
